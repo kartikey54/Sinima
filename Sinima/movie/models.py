@@ -5,4 +5,4 @@ class Movie(models.Model):
 	year = models.IntegerField()
 	source = models.FileField()
 	def __str__(self):
-		return self.title + " " + str(self.year)
+		return self.title + "  " + str(self.year)
