@@ -46,6 +46,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-https://github.com/kartikey54/Sinima/tree/master/Sinima/base/templates/* linguist-vendored
-https://github.com/kartikey54/Sinima/tree/master/Sinima/contact/templates/* linguist-vendored
-https://github.com/kartikey54/Sinima/tree/master/Sinima/movie/templates/* linguist-vendored
+Sinima/base/templates/* linguist-vendored
+Sinima/contact/templates/* linguist-vendored
+Sinima/movie/templates/* linguist-vendored
