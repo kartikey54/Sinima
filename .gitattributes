@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+https://github.com/kartikey54/Sinima/tree/master/Sinima/base/templates/* linguist-vendored
+https://github.com/kartikey54/Sinima/tree/master/Sinima/contact/templates/* linguist-vendored
+https://github.com/kartikey54/Sinima/tree/master/Sinima/movie/templates/* linguist-vendored
