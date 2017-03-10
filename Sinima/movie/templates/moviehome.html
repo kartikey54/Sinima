@@ -1,0 +1,30 @@
+{% extends 'header.html' %}
+{% block content %}
+<div style="color:white;padding-top='50px'">
+    {% if movie_number %}
+    <h4>Total streamable movies on server = {{movie_number}}</h4>
+    {% else %}
+    <h1> Out!</h1>
+    {% endif %}
+     <table class="table table-bordered table-inverse">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Movie Name</th>
+      <th>Year</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for movie in all_movies %}
+    <tr>
+      <th scope="row">{{movie}}</th>
+      <td>{{movie.title}}</td>
+      <td>{{movie.year}}</td>
+      <td><iframe width="640" height="360" src="https://www.youtube.com/embed/HSzx-zryEgM" frameborder="0" allowfullscreen></iframe></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}
