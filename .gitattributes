@@ -17,5 +17,4 @@
 *.RTF	 diff=astextplain
 
 Sinima/base/templates/* linguist-vendored
-Sinima/contact/templates/* linguist-vendored
 Sinima/movie/templates/* linguist-vendored
